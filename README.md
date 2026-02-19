@@ -143,16 +143,18 @@ visuals/tech_employment_dashboard.png
 ## Project Structure
 
 ```
+
 tech-workforce-dynamics-2000-2025/
 │
-├── data/
-├── python/
-├── sql/
-├── tableau/
-├── visuals/
-├── tech_employment.db
-├── requirements.txt
+├── data/ # raw and processed datasets
+├── python/ # data cleaning & feature engineering
+├── sql/ # analytical SQL queries
+├── tableau/ # Tableau workbook
+├── visuals/ # exported dashboard & ER diagram
+├── requirements.txt # Python dependencies
+├── .gitignore
 └── README.md
+
 ```
 
 ---

@@ -126,9 +126,8 @@ Files:
 
 ## Tech Stack
 
-- Python (Pandas, NumPy)  
-- SQLite  
-- SQL  
+- Python (Pandas, NumPy, Jupyter Notebook)  
+- SQLite/SQL  
 - Tableau  
 - Git / GitHub  
 
@@ -136,18 +135,18 @@ Files:
 
 ## Project Structure
 
-
+```
 tech-workforce-dynamics-2000-2025/
 │
-├── data/ # raw and processed datasets
-├── python/ # data cleaning & feature engineering
-├── sql/ # analytical SQL queries
-├── tableau/ # Tableau workbook
-├── visuals/ # exported dashboard & ER diagram
-├── requirements.txt # Python dependencies
+├── data/
+├── python/
+├── sql/
+├── tableau/
+├── visuals/
+├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 

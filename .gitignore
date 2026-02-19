@@ -5,3 +5,4 @@ __pycache__/
 tableau/.~*
 *.db
 *.sqbpro
+venv/

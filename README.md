@@ -92,9 +92,9 @@ Analytical queries were implemented to evaluate:
 
 Queries available in:
 
-```
+
 [`sql/analysis_queries.sql`](sql/analysis_queries.sql)
-```
+
 
 ---
 

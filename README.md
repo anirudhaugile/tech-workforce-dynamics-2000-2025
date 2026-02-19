@@ -37,9 +37,8 @@ Raw company-level workforce data was cleaned and transformed using Pandas.
 
 Located in:
 
-```
-data/processed/
-```
+[`data/processed/`](data/processed/)
+
 
 ---
 
@@ -71,9 +70,7 @@ A normalized SQLite database was constructed to support structured analytical qu
 
 ER diagram available at:
 
-```
-visuals/er_diagram.png
-```
+[`visuals/er_diagram.png`](visuals/er_diagram.png)
 
 ---
 
@@ -91,7 +88,6 @@ Analytical queries were implemented to evaluate:
 - Worst contraction years  
 
 Queries available in:
-
 
 [`sql/analysis_queries.sql`](sql/analysis_queries.sql)
 
@@ -123,10 +119,8 @@ Includes:
 
 Files:
 
-```
-tableau/tech_employment_dashboard.twbx
-visuals/tech_employment_dashboard.png
-```
+- [`tableau/tech_employment_dashboard.twbx`](tableau/tech_employment_dashboard.twbx)
+- [`visuals/tech_employment_dashboard.png`](visuals/tech_employment_dashboard.png)
 
 ---
 
@@ -142,20 +136,18 @@ visuals/tech_employment_dashboard.png
 
 ## Project Structure
 
-```
 
 tech-workforce-dynamics-2000-2025/
 │
-├── data/ # raw and processed datasets
-├── python/ # data cleaning & feature engineering
-├── sql/ # analytical SQL queries
-├── tableau/ # Tableau workbook
-├── visuals/ # exported dashboard & ER diagram
+├── [`data/`](data/) # raw and processed datasets
+├── [`python/`](python/)# data cleaning & feature engineering
+├── [`sql/`](sql/)# analytical SQL queries
+├── [`tableau/`](tableau/)# Tableau workbook
+├── [`visuals/`](visuals/) # exported dashboard & ER diagram
 ├── requirements.txt # Python dependencies
 ├── .gitignore
 └── README.md
 
-```
 
 ---
 

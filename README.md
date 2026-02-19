@@ -139,11 +139,11 @@ Files:
 
 tech-workforce-dynamics-2000-2025/
 │
-├── [`data/`](data/) # raw and processed datasets
-├── [`python/`](python/)# data cleaning & feature engineering
-├── [`sql/`](sql/)# analytical SQL queries
-├── [`tableau/`](tableau/)# Tableau workbook
-├── [`visuals/`](visuals/) # exported dashboard & ER diagram
+├── data/ # raw and processed datasets
+├── python/ # data cleaning & feature engineering
+├── sql/ # analytical SQL queries
+├── tableau/ # Tableau workbook
+├── visuals/ # exported dashboard & ER diagram
 ├── requirements.txt # Python dependencies
 ├── .gitignore
 └── README.md
